@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Hello, I'm Biniyam</h2>
+        <p id="typing-text"></p>
+        <a href="#" class="btn" onclick="downloadCV()">Download CV</a>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profile.jpg" alt="Profile Photo" width="150">
+        <p>I am a web developer skilled in HTML, CSS, and JavaScript.</p>
+    </section>
+    <section id="work">
+        <h2>My Projects</h2>
+        <div class="project">Project 1 - Portfolio Website</div>
+        <div class="project">Project 2 - Student System</div>
+    </section>
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Web Design</li>
+            <li>Frontend Development</li>
+            <li>Responsive Websites</li>
+        </ul>
+    </section>
+    <section id="contact">
+   
+    <h2>Contact Me</h2>
+
+    <input type="text" id="userName" placeholder="Your Name">
+    <br><br>
+
+    <textarea id="userMessage" placeholder="Write your message here..."></textarea>
+    <br><br>
+
+    <button onclick="sendMessage()">Send Message</button>
+</div>
+
+    </section>
+    <footer>
+        <p>© 2026 Biniyam | All Rights Reserved</p>
+    </footer>
+
+    <script src="script3.js"></script>
+</body>
+</html>
